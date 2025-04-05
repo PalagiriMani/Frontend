@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <meta name="vi
+<html lang="en">
+<head>ewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditor Dashboard - GoGreen</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Auditor Dashboard</h1>
+        <nav>
+	  	<button onclick="showAdminLogin()">Admin</button>
+	   	<button onclick="showAuditorLogin()">Auditor</button>
+		<button onclick="navigate('user.html')">User</button>
+            	<button onclick="navigate('index.html')">Home</button>
+        </nav>
+    </header>
+    <main>
+        <select id="userSelect">
+            <option value="">Select a Project</option>
+        </select>
+        <div id="responseDetails"></div>
+    </main>
+    <script src="js/auditor.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

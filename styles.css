@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+header {
+    background-color: white(43, 44, 44);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav button {
+    background-color: #0df168;
+    border: none;
+    color: #2a2b2a;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+   float:inline-end;
+   
+}
+
+nav button:hover {
+    background-color:bisque;
+}
+
+main {
+    background-color: white;
+    padding:150px;
+    
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+form h3 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:springgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #57a73e;
+}
+
+#loginForm {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+

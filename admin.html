@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - GoGreen</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <img src="https://i0.wp.com/virtualvastra.org/wp-content/uploads/2020/07/VRNC-Logo-19032020.jpg?ssl=1" alt="vrnc" height="120" width="120" align="left">
+        <nav>
+            <button onclick="showAdminLogin()">Admin</button>
+            <button onclick="showAuditorLogin()">Auditor</button>
+            <button onclick="navigate('user.html')">User</button>
+            <button onclick="navigate('index.html')">Home</button>
+        </nav>
+    </header>
+    <main>
+        <button onclick="navigate('view_responses.html')">View User Responses</button>
+        <button onclick="navigate('manage_auditors.html')">Manage Auditors</button>
+        <button onclick="navigate('delete_responses.html')">Delete User Responses</button>
+    </main>
+    <script src="js/admin.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
